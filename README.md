@@ -17,5 +17,8 @@ While building the HTML pages add working links to connect the pages together, a
 
 When you have finished building the pages, switch across to the 'answers' branch to see how you could have completed the lesson task.
 
-By the end of the task, your home page should look like this: 
-[![Image from Gyazo](https://i.gyazo.com/90747444e4ded266571a93d4cbe8194d.gif)](https://gyazo.com/90747444e4ded266571a93d4cbe8194d)
+### Video
+
+This video shows you how to complete the lesson task 1.2. Only watch it after attempting the lesson task by yourself.
+
+[View on Vimeo](https://vimeo.com/478449347/9d67203a96)
