@@ -13,6 +13,10 @@ h2,
     font-family: "Boots And Spurs", verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .product-list h2 {
     font-family: 'roboto', Arial, sans-serif;
 }
@@ -26,11 +30,33 @@ header a {
     color: #fff;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+    display: block; /* Or inline-block */
+    padding: 20px 20px 0px 0px;
+    text-decoration: none; /* Remove underlines */
+}
+
+.current {
+    text-decoration: underline;
+}
+
 .cta {
-    background-color: #bb0000;
+     background-color: #bb0000;
     color: #fff;
-    font-size: 1.5em;
-    border-radius: 3px;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
 }
 
 .reviews {
@@ -42,12 +68,40 @@ header a {
 }
 
 .cta-sale {
+    text-decoration: none;
     background-color: #127300;
     color: #fff;
     font-size: 1.5em;
     border-radius: 3px;
+    padding: 5px 30px;
 }
 
 footer {
     text-align: center;
+}
+
+/* Homepage */
+.welcome {
+  background-image: url("../images/home-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 70vh;
+}
+
+.selling-points__images {
+    border-radius: 100px;
+}
+
+.review__images {
+    border-radius: 50%;
+}
+
+/* Contact page */
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
 }
