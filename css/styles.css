@@ -1,86 +1,81 @@
 @font-face {
-    font-family: "Boots And Spurs";
-    src: url(../fonts/BootsAndSpurs.ttf) format("truetype");
+  font-family: "Boots And Spurs";
+  src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
 }
 
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1, 
+h1,
 h2,
 .logo {
-    font-family: "Boots And Spurs", verdana, sans-serif;
-}
-
-a {
-    text-decoration: none;
+  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .product-list h2 {
-    font-family: 'roboto', Arial, sans-serif;
-}
-
-header, footer {
-    background-color: #202020;
-    color: #fff;
-}
-
-header a {
-    color: #fff;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
-nav ul li {
+nav li {
   display: inline-block;
 }
 
-nav ul li a {
-    display: block; /* Or inline-block */
-    padding: 20px 20px 0px 0px;
-    text-decoration: none; /* Remove underlines */
+header,
+footer {
+  background-color: #202020;
+  color: #fff;
 }
 
-.current {
-    text-decoration: underline;
+/* Links */
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #fff;
+  padding: 10px;
 }
 
 .cta {
-     background-color: #bb0000;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
-    padding: 10px 80px;
-    border-radius: 5px;
+  background-color: #bb0000;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 5px;
+}
+
+.cta-small {
+  padding: 8px 30px;
+  font-size: 0.8em;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .reviews {
-    background-color: #e8e8e8;
+  background-color: #e8e8e8;
 }
 
-.featured--products {
-    background-color: #fbfbfb;
+.featured__products {
+  background-color: #fbfbfb;
 }
 
 .cta-sale {
-    text-decoration: none;
-    background-color: #127300;
-    color: #fff;
-    font-size: 1.5em;
-    border-radius: 3px;
-    padding: 5px 30px;
+  background-color: #127300;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
-/* Homepage */
+/* Home page */
 .welcome {
   background-image: url("../images/home-header.jpg");
   background-size: cover;
@@ -88,14 +83,22 @@ footer {
   background-position-x: right;
   background-position-y: bottom;
   min-height: 70vh;
+  position: relative;
+}
+
+.welcome__content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
 }
 
 .selling-points__images {
-    border-radius: 100px;
+  border-radius: 100px;
 }
 
 .review__images {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* Contact page */
