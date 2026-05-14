@@ -17,6 +17,15 @@ h2,
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+  margin-left: 25px;
+}
+
 nav ul {
   padding: 0px;
 }
@@ -55,7 +64,7 @@ header a {
   font-size: 0.8em;
 }
 
-.active {
+.current {
   text-decoration: underline;
 }
 
@@ -93,8 +102,19 @@ footer {
   left: 100px;
 }
 
+.selling-points {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.flex-item {
+  flex: 1;
+}
+
 .selling-points__images {
   border-radius: 100px;
+  width: 100%;
 }
 
 .review__images {
